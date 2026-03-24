@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      margin-bottom: 30px;
+    }
+
+    .project-card {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 25px;
+      margin-top: 20px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .project-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .project-desc {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #cbd5f5;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Project</h1>
+    <p>A collection of mini AI & Deep Learning projects.</p>
+
+    <!-- Project Card -->
+    <div class="project-card">
+      <div class="project-title">Mini Project Name</div>
+      <div class="project-desc">
+        Short description of the mini AI / Deep Learning project goes here.
+        You can explain what it does, the model used, or its purpose.
+      </div>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <!-- You can duplicate this block for more projects -->
+
+    <footer>
+      © 2026 My Project • Built with GitHub Pages
+    </footer>
+  </div>
+
+</body>
+</html>
